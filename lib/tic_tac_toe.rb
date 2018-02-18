@@ -105,3 +105,12 @@ def winner(board)
       return "O"
   end
 end
+
+def play(board)
+if !over?(board)
+  turn(board)
+elsif
+  over(board)
+  
+end
+
