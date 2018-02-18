@@ -107,9 +107,14 @@ def winner(board)
 end
 
 def play(board)
-if !over?(board)
+while !over?(board)
   turn(board)
-elsif
-  over(board)
-
 end
+if won?(board)
+  puts "Congratulaton player #{winner(board)}!"
+end
+if draw?(board)
+  puts "Cat's Game"
+end
+end
+
