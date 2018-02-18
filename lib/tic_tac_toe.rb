@@ -111,6 +111,5 @@ if !over?(board)
   turn(board)
 elsif
   over(board)
-  
-end
 
+end
